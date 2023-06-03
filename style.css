@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+/*Eu fui no google fonts e importei essa belissíma fonte :)*/
+*{
+    margin: 0;
+/*distância da imagem que tem anterior*/
+    padding: 0;
+/*distância entre conteúdos header...main...footer..*/
+    box-sizing: border-box;
+    text-decoration: none;
+/*tiramos qualquer decoração*/
+
+}
+/*demos um reset em todas as funções base do HTML para iniciar do 0*/
+
+body{
+    font-size: 100%;
+    background: linear-gradient(#2F2325 0%, #8E5D52 100%);
+/*linear-gradient==o belíssimo degrade do fundo*/
+}
+
+.cabecalho{
+    display: flex;
+/* display flex== ele indica que vou usar o flexbox para organizar as posições, temos tags filho e pai (flexbox está favoritado no chrome)*/
+    flex-direction: row;
+/* flex-direction== em qual direção quero meus itens? Aqui eu escolhi em linha reta :)*/
+    align-items: center;
+/* align-items== alinhamento dos itens*/
+    justify-content: space-around;
+/*espaçamento entre conteúdo todo/geral*/
+    padding: 24px;
+}
+
+.cabecalho-img{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+/*espaçamento especificio*/
+}
+
+.cabecalho-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7; 
+    font-weight: 400;
+    font-Size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+/*margin-bottom==distância do footer*/
+    border-top: 0.4px solid #FFF2E7;
+/*border-top== linha do topo do nosso conteúdo*/
+/*solid== a linha e reta, não pontilhada...*/
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px; 
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7; 
+    font-weight: 400;
+    font-Size: 64px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7; 
+    font-weight: 400;
+    font-Size: 24px;
+}
+
+.conteudo-principal-escrito-botao{
+    border: none;
+    background-color: #ECD6C4;
+    height: 60px;
+    width: 180px;
+    border-radius: 20px;
+/*border-radius==torno você arredondado*/
+    box-shadow: 4px, 4px, 5px rgba(0, 0, 0, 0.25);
+    font-family: 'Sarala', sans-serif;
+    color: #2F2325; 
+    font-weight: 400;
+    font-Size: 24px;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background-color: rgba(236, 214,196, 0.53);
+
+}
+
+.conteudo-principal-imagem{
+    height: 430px;
+/*só mudei a altura mesmo*/
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7; 
+    font-weight: 400;
+    font-Size: 24px;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-lista-item{
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7; 
+    font-weight: 300;
+/*font-weight==grossura da fonte*/
+    font-Size: 18px;
+}
+
+.rodape{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7; ;
+}
+
+.rodape-imagem{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+/*block==colocou em bloco*/
+}
+/*para chamar um classe eu uso .*/
