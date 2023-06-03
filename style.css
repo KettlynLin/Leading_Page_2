@@ -1,32 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
-/*Eu fui no google fonts e importei essa belissíma fonte :)*/
+
 *{
     margin: 0;
-/*distância da imagem que tem anterior*/
+
     padding: 0;
-/*distância entre conteúdos header...main...footer..*/
+
     box-sizing: border-box;
     text-decoration: none;
-/*tiramos qualquer decoração*/
+
 
 }
-/*demos um reset em todas as funções base do HTML para iniciar do 0*/
+
 
 body{
     font-size: 100%;
     background: linear-gradient(#2F2325 0%, #8E5D52 100%);
-/*linear-gradient==o belíssimo degrade do fundo*/
+
 }
 
 .cabecalho{
     display: flex;
-/* display flex== ele indica que vou usar o flexbox para organizar as posições, temos tags filho e pai (flexbox está favoritado no chrome)*/
+
     flex-direction: row;
-/* flex-direction== em qual direção quero meus itens? Aqui eu escolhi em linha reta :)*/
+
     align-items: center;
-/* align-items== alinhamento dos itens*/
+
     justify-content: space-around;
-/*espaçamento entre conteúdo todo/geral*/
+
     padding: 24px;
 }
 
@@ -37,7 +37,7 @@ body{
 .cabecalho-menu{
     display: flex;
     gap: 32px;
-/*espaçamento especificio*/
+
 }
 
 .cabecalho-menu-item{
@@ -49,10 +49,9 @@ body{
 
 .conteudo {
     margin-bottom: 48px;
-/*margin-bottom==distância do footer*/
+
     border-top: 0.4px solid #FFF2E7;
-/*border-top== linha do topo do nosso conteúdo*/
-/*solid== a linha e reta, não pontilhada...*/
+
 }
 
 .conteudo-principal{
@@ -103,7 +102,7 @@ body{
 
 .conteudo-principal-imagem{
     height: 430px;
-/*só mudei a altura mesmo*/
+
 }
 
 .conteudo-secundario{
@@ -128,7 +127,7 @@ body{
     font-family: 'Sarala', sans-serif;
     color: #FFF2E7; 
     font-weight: 300;
-/*font-weight==grossura da fonte*/
+
     font-Size: 18px;
 }
 
@@ -141,6 +140,5 @@ body{
     height: 48px;
     display: block;
     margin: 0 auto;
-/*block==colocou em bloco*/
+
 }
-/*para chamar um classe eu uso .*/
